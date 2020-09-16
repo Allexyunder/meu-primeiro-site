@@ -1,0 +1,691 @@
+html, body{
+    margin: 0;
+
+}
+/**BARRA FIXA**/
+header{
+    background-color: rgb(3, 3, 20);
+    color: white;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+#barra-fixa-img{
+
+    width: 60px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    margin-left: 2%;
+    cursor: pointer;
+
+}
+#menu{
+    margin-top: 3px;
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+#barra-fixa-img:hover{
+background-color:rgb(6, 6, 37) ;
+border-radius: 3px;
+}
+li{
+    float: left;
+    padding: 20px 10px;
+
+}
+
+.menu-topo-li {
+    color: white;
+    float: left;
+    text-decoration: none;
+    font-weight: 700;
+}
+li:hover {
+    background-color: rgb(8, 89, 114);
+}
+
+.img-menu {
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    opacity: 60%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    z-index: 11;
+}
+.img-menu:hover {
+    opacity: 90%;
+}
+
+
+.invisible-menu {
+    visibility: hidden;
+}
+
+.menu-box li {
+    clear: both;
+    padding: 5px 10px;
+    margin: 5px auto;
+}
+
+.menu-box .menu-topo-li {
+    clear: both;
+}
+
+.menu-box {
+    background-color: rgb(10, 10, 51);
+    top: 65px;
+    right: 0;
+    padding: 10px 30px 30px 0;
+    position: fixed;
+    z-index: 15;
+}
+
+.menu-susp {
+    list-style: none;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+/**BARRA FIXA**/
+
+/**Intro**/
+    #background-top{
+        background:url(img/Terra.jpeg);
+        height: 100%;
+        text-align: center;
+        background-size: cover;
+    }
+
+    #background-top .titulo{
+        padding-top: 14%;
+        color: white;
+        font-family: 'Berkshire Swash', cursive, sans-serif;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 90px;
+        letter-spacing: 2px;
+    }
+
+    #subtitulo{
+        letter-spacing: 5px;
+        font-size: 50px;
+        font-family: 'Bangers', cursive, sans-serif;
+        color:white;
+    }
+
+    #background-top .shadow {
+        text-shadow: black 5px 5px 3px;
+    }
+/**Intro**/
+
+
+/**sessão um**/
+    #about{
+        margin: 8rem 0 0;
+        padding: 10px 0;
+    }
+
+    #sessao-um{
+        padding: 150px 20px;
+        float: left;
+        background-size: cover;
+    }
+
+    .coluna-sessao-um .img{
+        border-radius: 20px;
+        margin: 10% auto;
+    }
+
+    .coluna-sessao-um hr {
+        border-color: white;
+        margin: 1rem auto -5rem;
+    }
+
+    #paragrafo-um span {
+        font-weight: bold;
+    }
+
+    .coluna-sessao-um{
+        float: left;
+        padding: 0 5%; 
+        position: relative;
+        width: 40%;
+    }
+    #paragrafo-um{
+        margin: 0px;
+        padding: 20% 0;
+    }
+
+/**sessão um**/
+
+
+/**sessão dois**/
+    #sessao-dois{
+        float: left;
+        background-color: white;
+        padding-top: 12%;
+        padding-bottom: 10%;
+    }
+
+    #botao{
+        padding: 50px;
+        text-align: center;
+        font-family: 'Bangers', cursive;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    
+
+    .saiba-mais-btn {
+        border: rgb(23, 18, 65) solid 3px;
+        border-radius: 20px;
+        padding: 10px 2rem;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(23, 18, 65);
+        box-shadow: black 3px 3px 8px;
+    }
+    .saiba-mais-btn:hover {
+        background-color: rgb(45, 46, 99);
+        color: white;
+    }
+
+    .coluna-sessao-dois{
+        float: left;
+        padding: 0 5%;
+        position: relative;
+        width: 40%;
+    }
+/**sessão dois**/
+
+/**sessão tres**/
+    #sessao-tres{
+        float: left;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        width: 100%;
+    }
+
+    #sessao-tres .Subtitulos, #sessao-quatro .Subtitulos, #sessao-cinco .Subtitulos {
+        border: rgb(23, 18, 65) solid 3px;
+        border-radius: 20px;
+        box-shadow: rgb(23, 18, 65) 4px 4px 8px;
+        color:  rgb(23, 18, 65);
+        margin: 2rem auto;
+        padding: 8px 3rem;
+        width: fit-content;
+    }
+    #sessao-tres .Subtitulos:hover, #sessao-quatro .Subtitulos:hover, #sessao-cinco .Subtitulos:hover {
+        background-color: rgb(45, 46, 99);
+        color: white;
+        cursor: pointer;
+    }
+
+    #sessao-tres .paragrafos, #sessao-quatro .paragrafos, #sessao-cinco .paragrafos {
+        padding: 10px 10%;
+        font-size: 1.3rem;
+    }
+
+    .coluna-sessao-tres{
+        float: left;
+        text-align: center;
+        width: 25%;
+    }
+
+    .sessoes-3-4.all {
+        padding: 0;
+        margin: 0;
+    }
+
+    .dois-por-dois {
+        display: none;
+    }
+/**sessão tres**/
+
+
+
+#sessao-quatro{
+    float: left;
+    padding-top: 9%;
+    padding-bottom: 7%;
+    width: 100%;
+}
+.coluna-sessao-quatro{
+    float: left;
+    width: 33.333333333333333333333%;
+    text-align: center;
+}
+/** sessão quatro**/
+
+/** sessão cinco**/
+#sessao-cinco{
+    float: left;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    width: 100%;
+}
+#imagem-logo{
+    padding:20px 30px 20px 0;
+    background-color: rgba(106, 96, 165, 0.562);
+    border-radius: 70px;
+    border: solid rgba(84, 71, 156, 0.562) 10px ;
+}
+#logo{
+    text-align: center;
+    padding-right:2%;
+}
+.coluna-sessao-cinco{
+    float: left;
+    width: 33.333333333333333333333%;
+    text-align: center;
+}
+
+#sessao-cinco.all {
+    padding: 0 0 10rem;
+    margin: 0;
+}
+
+/** sessão cinco**/
+
+/** sessão seis - sobre mim **/
+    #sobre-mim{
+        float: left;
+        color: rgb(211, 210, 252);
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+    #sobre-mim hr {
+        border-top: rgb(255, 255, 255) 3px solid;
+        margin-bottom: 3rem;
+    }
+
+    #eu{
+        width: 20%;
+        border-radius: 100%;
+        border: solid 10px rgba(35, 35, 77, 0.534);
+    }
+    #nome{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        color: white;
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .coluna-sessao-seis{
+        padding: 10px;
+
+        text-align: center;
+    }
+    #minha-foto{
+        text-align: center;
+    }
+    #sobre-mim-paragrafo{
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+        font-size: 20px;
+        padding: 0 15%;
+    }
+/** sessão seis - sobre mim **/
+
+            /**Background das sessões**/
+            .sessoes-3-4{
+                background-color: #F4EEFF;
+            }
+            .sessoes-3-4 hr{
+                border-top: rgb(2, 10, 51) 3px solid;
+                margin-bottom: 3rem;
+                
+            }
+            .sessoes-1-6{
+                background-color: rgb(0, 0, 0);
+            }
+            #sessao-cinco{
+                background-color: #bdb9d8;
+            }
+            /**Background das sessões**/
+
+            /**PADRONIZAÇÃO - SUBTITULOS**/
+            .Subtitulos{
+                font-family: 'Ubuntu Condensed', sans-serif;
+                font-size: 20px;
+                letter-spacing: 5px;
+            }
+            /**PADRONIZAÇÃO - SUBTITULOS**/
+
+            /**PADRONIZAÇÃO - ESPAÇAMENTO**/
+            
+            /**PADRONIZAÇÃO - ESPAÇAMENTO**/
+
+            /**PADRONIZAÇÃO - IMAGENS**/
+            .tamanho-das-imagens{
+                width:30%; 
+            }
+            .icon{
+                width: 120px;
+            }
+            /**PADRONIZAÇÃO - IMAGENS**/
+
+            /**PADRONIZAÇÃO - TITULOS**/
+            .title-center{
+                color: rgb(4, 16, 85);
+                letter-spacing: 5px;
+                font-family: 'Bebas Neue', cursive;
+                font-size: 3rem;
+                text-align: center;
+            }
+            .cor-alternativa{
+                color:rgb(255, 255, 255);
+            }
+            /**PADRONIZAÇÃO - TITULOS**/
+            
+            /**PADRONIZAÇÃO - TEXTOS**/
+            .paragrafos{
+                font-family: 'Fira Sans Extra Condensed', sans-serif;
+                text-align: center;
+                font-size: 18px;
+            }
+            
+            .cor-paragrafo-sec{
+                color:rgb(58, 58, 58);
+            }
+            .cor-paragrafo{
+                color: rgb(255, 255, 255);
+            }
+            .hr-titles {
+                border: unset;
+                border-top: rgb(2, 10, 51) 8px dotted;
+                height: 0;
+                margin-top: -30px;
+                width: 25%;
+            }
+            /**PADRONIZAÇÃO - TEXTOS**/
+
+
+/**Rodapé**/
+footer{
+    background-color:rgb(6, 6, 39);
+    float: left;
+    width: 100%;
+}
+.png{
+    width:30px;
+}
+#title-rodape{
+    color: rgb(52, 52, 170);
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 2rem;
+    margin-bottom: 5px;
+}
+.be-a-hero{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 2px;
+    color: rgb(86, 86, 199);
+}
+
+#copyright{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 12px;
+    padding: 0 15%;
+    color: rgb(86, 86, 199);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+/**Rodapé**/
+
+.invisible {
+    visibility: hidden;
+}
+
+.blank-reset {
+    height: 0;
+    margin-bottom: -1rem;
+    visibility: hidden;
+}
+
+@media all and (max-width: 1200px) {
+
+    /**sessão um**/
+
+    #about {
+        margin-top: 35px;
+    }
+
+    /**sessão um**/
+
+    /**sessão dois**/
+
+    .coluna-sessao-dois .title-center {
+        margin-top: 1rem;
+    }
+
+    /**sessão dois**/
+
+}
+
+@media all and (max-width: 1000px) {
+
+    /**BARRA FIXA**/
+
+    #menu {
+        visibility: hidden;
+    }
+
+    .invisible-menu {
+        visibility: visible;
+    }
+
+    /**BARRA FIXA**/
+
+    /**sessão um**/
+
+    #about {
+        margin-top: 20px;
+    }
+
+    #sessao-um hr {
+        margin-top: 8px;
+        margin-bottom: -45px;
+    }
+
+    /**sessão um**/
+
+    /**sessão dois**/
+
+    #sessao-dois .title-center {
+        margin-top: 0;
+    }
+
+    .vid-ods {
+        margin-top: 0.5rem;
+        height: 400px;
+    }
+
+    .coluna-sessao-dois {
+        width: 60%;
+        padding: 0;
+    }
+    
+    .coluna-sessao-dois.sessao-dois-txt-div {
+        width: 34%;
+        padding: 0 3%;
+    }
+
+    /**sessão dois**/
+
+    /**sessão três**/
+
+    #sessao-tres .Subtitulos, #sessao-quatro .Subtitulos {
+        font-size: 1rem;
+        padding: 5px 20px;
+    }
+
+    /**sessão três**/
+
+}
+@media all and (max-width: 900px) {
+
+    /**sessão um**/
+    
+    #sessao-um .coluna-sessao-um {
+        width: 100%;
+    }
+
+    .coluna-sessao-um .img {
+        width: 75%;
+    }
+
+    .coluna-sessao-um {
+        padding: 0;
+    }
+
+    #sessao-um {
+        padding-bottom: 0;
+    }
+
+    #paragrafo-um {
+        margin: 0 auto;
+        width: 70%;
+    }
+    
+    /**sessão um**/
+
+    /**sessão dois**/
+
+    .coluna-sessao-dois.sessao-dois-txt-div {
+        padding: 0;
+        width: 100%;
+    }
+    
+    .coluna-sessao-dois {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    .vid-ods {
+        width: 80%;
+    }
+
+    .coluna-sessao-dois .paragrafos {
+        margin: 2rem auto;
+        width: 80%;
+    }
+    
+    /**sessão dois**/
+
+    /**sessão três**/
+    
+    .coluna-sessao-tres {
+        width: 50%;
+    }
+
+    .coluna-sessao-tres .paragrafos {
+        clear: both;
+    }
+
+    .dois-pri-div, .dois-ult-div {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .dois-por-dois {
+        display: block;
+        visibility: hidden;
+    }
+
+    .terceira-col-div {
+        clear: both;
+    }
+    
+    /**sessão três**/
+
+}
+
+@media all and (max-width: 700px) {
+
+    /**sessão quatro**/
+
+    .coluna-sessao-quatro {
+        width: 50%;
+    }
+    
+    .coluna-sessao-quatro.ultima-img-sol {
+        width: 100%;
+    }
+    
+    /**sessão quatro**/
+
+    /**sessão cinco**/
+
+    .coluna-sessao-cinco {
+        width: 100%;
+    }
+
+    /**sessão cinco**/
+
+    /**sessão quatro**/
+
+    #eu {
+        margin-bottom: 2rem;
+        width: 35%;
+    }
+
+    /**sessão quatro**/
+
+}
+
+@media all and (max-width: 450px) {
+
+    /**intro**/
+
+    #background-top .titulo {
+        margin-top: 4rem;
+        font-size: 3.6rem;
+    }
+
+    #subtitulo {
+        font-size: 2.3rem;
+    }
+
+    /**intro**/
+
+    /**sessão dois**/
+
+    .vid-ods {
+        height: 270px;
+    }
+
+    /**sessão dois**/
+
+    /**sessão três**/
+
+    .coluna-sessao-tres {
+        width: 100%;
+    }
+
+    /**sessão três**/
+
+    /**sessão quatro**/
+
+    .coluna-sessao-quatro {
+        width: 100%;
+    }
+
+    /**sessão quatro**/
+
+}
